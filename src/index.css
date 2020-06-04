@@ -1,13 +1,56 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin:0 auto;
+  box-sizing: border-box;
+  min-width:100%;
+  background-color:Skyblue;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.row{
+  display:flex;
+}
+
+.col-75{
+  flex:75%;
+}
+
+.col-50{
+  flex:50%;
+  margin:auto;
+}
+
+.col-25{
+  flex:25%;
+}
+
+
+.slots{
+  margin:auto;
+}
+
+.bet-btns{
+  margin:auto;
+  padding:5%;
+}
+
+.spin-reset-btns{
+  margin:auto;
+  padding:5%;
+}
+
+#slot-machine{
+  margin: auto;
+  background-color:red;
+  border:5px solid gold;
+  border-radius: 5px;
+  width:75%;
+  min-height:90%;
+  padding:10%;
+  justify-content: center;
+}
+
+#screen{
+  margin:auto;
+  width:75%;
+  min-height: 25%;
+  background-color:lightyellow;
 }
